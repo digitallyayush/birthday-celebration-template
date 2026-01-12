@@ -13,19 +13,16 @@ function MessageCard({ isActive }) {
   const curtainHintRef = useRef(null);
   const messageContentRef = useRef(null);
 
-  const message = `[Recipient Name],
+  const message = `[Meri Pyaari Aashu],
 
-Your personalized birthday message goes here.
-
-You can write multiple paragraphs to express your feelings,
-share memories, and make this special day even more memorable.
-
-This template supports multiple lines and formatting,
-so feel free to customize it completely to fit your style.
+Happy Birthday to the most beautiful part of my life 💕
+Thank you for filling my days with laughter, love, and endless happiness.
+You deserve all the joy in the world today and forever.
+I’m so lucky to have you. Love you loads 😘🎉
 
 Happy Birthday! 🎉
 
-— [Your Name]`;
+— [Aapka Bubu]`;
 
   // Handle page transitions
   useEffect(() => {
