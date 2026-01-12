@@ -1,3 +1,9 @@
+Disclaimer:
+If you are using this repository and pushing it to your own GitHub account, please ensure that your repository is set to private.
+Keeping the repository public may unintentionally expose your images and other sensitive assets.
+
+
+
 # ��� Birthday Countdown Website
 
 Beautiful birthday website with countdown, photo gallery, and celebration effects!
