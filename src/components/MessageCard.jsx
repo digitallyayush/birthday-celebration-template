@@ -12,8 +12,9 @@ function MessageCard({ isActive }) {
   const curtainRightRef = useRef(null);
   const curtainHintRef = useRef(null);
   const messageContentRef = useRef(null);
-
-  const message = `[Meri Pyaari Aashu],
+  const recipientName = "Aashu";
+  const senderName = "Ayush";
+  const message = `Meri Pyaari Aashu,
 
 Happy Birthday to the most beautiful part of my life 💕
 Thank you for filling my days with laughter, love, and endless happiness.
@@ -22,7 +23,7 @@ I’m so lucky to have you. Love you loads 😘🎉
 
 Happy Birthday! 🎉
 
-— [Aapka Bubu]`;
+—Aapka Bubu`;
 
   // Handle page transitions
   useEffect(() => {
